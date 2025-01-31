@@ -7,11 +7,12 @@ This script is designed to sort audio stems (such as vocal, guitar, synth, orche
 
 To get started, clone the repository to your local machine:
 1. open terminal in prefered location
-2. ```sh
+2. Clone the github repository to your machine
+   ```sh
    git clone git@github.com:swarajvee/Stems-Organizer.git
    ```
 
-3. Navigate to the script directory:
+4. Navigate to the script directory:
 
 ```sh
   cd Stems-Organizer
