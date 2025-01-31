@@ -12,7 +12,7 @@ To get started, clone the repository to your local machine:
    git clone git@github.com:swarajvee/Stems-Organizer.git
    ```
 
-4. Navigate to the script directory:
+3. Navigate to the script directory:
 
 ```sh
   cd Stems-Organizer
@@ -21,18 +21,18 @@ To get started, clone the repository to your local machine:
 
 ## Usage
 
-3. Run the script by executing the following command in your terminal:
+4. Run the script by executing the following command in your terminal:
 ```sh
 python3 StemsOrganizer.py
 ```
 
-4. You will be prompted to enter the path to the 'Stems Directory'. This is the directory where your stem files are located.
+5. You will be prompted to enter the path to the 'Stems Directory'. This is the directory where your stem files are located.
 
-5. The script will list all the files in the directory (excluding subdirectories and system files).
+6. The script will list all the files in the directory (excluding subdirectories and system files).
 
-6. It will then attempt to categorize the files based on predefined keywords and move them into their respective folders. If a file matches multiple categories, you will be asked to choose the correct folder.
+7. It will then attempt to categorize the files based on predefined keywords and move them into their respective folders. If a file matches multiple categories, you will be asked to choose the correct folder.
 
-7. Once the files are sorted, you will be prompted to enter project details:
+8. Once the files are sorted, you will be prompted to enter project details:
    - Project Name (Song name)
    - Project BPM (Tempo)
    - Project Scale
