@@ -23,7 +23,7 @@ To get started, clone the repository to your local machine:
 
 3. Run the script by executing the following command in your terminal:
 ```sh
-python StemsOrganizer.py
+python3 StemsOrganizer.py
 ```
 
 4. You will be prompted to enter the path to the 'Stems Directory'. This is the directory where your stem files are located.
