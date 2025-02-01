@@ -36,6 +36,7 @@ python3 StemsOrganizer.py
    - Project Name (Song name)
    - Project BPM (Tempo)
    - Project Scale
+   - Project Sample Rate
    - Any Remarks you may want to add
 
 8. An `info.txt` file will be created with the provided project details, which will be saved in the same directory.
