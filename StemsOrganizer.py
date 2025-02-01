@@ -92,12 +92,14 @@ intoFile = os.path.join(dir, 'info.txt')
 songName = input("Enter the Project Name here: ")
 bpm      = input("Enter the Prjoect Tempo here: ")
 scale    = input("Enter the Project Scale here: ")
+smplRate = input("Enter the Project Sample Rate here: ")
 notes    = "The Project stems are in respective folders"
 remarks  = input("Enter if you want to mention any remarks (press enter if you dont have any remarks): ")
 with open('info.txt', "w") as txtFile:
     txtFile.write(f"Project Name: {songName}\n")
     txtFile.write(f"Project BPM: {bpm}\n")
     txtFile.write(f"Project Scale: {scale}\n")
+    txtFile.write(f"Project Sample Rate: {smplRate}\n")
     txtFile.write(f"Notes and Remarks: {notes}. {remarks}\n")
 
 print("info.txt file is created")
